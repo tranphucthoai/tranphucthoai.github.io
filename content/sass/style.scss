@@ -69,30 +69,43 @@ body {
                     color: $colorGreenMain;
 
                     &:after {
-                        width: 80px;
+                        width: 0px;
+                        //width: 80px;
                     }
 
                     &:after:nth-child(3) {
-                        width: 60px;
-                    }
-
-                    @media (min-width: 992px) {
-                        &:after {
-                            left: 8px;
-                            width: 84%;
-                        }
+                        //width: 60px;
+                        width: 0px;
                     }
 
                     .nav-link {
                         color: $colorGreenMain;
                     }
-                }
+                    /*@media (min-width: 768px) {
+                        &:after {
+                            width: 80px;
+                            left: 4px;
+                        }
 
-                &:hover:nth-child(2n+2) {
-                    color: $colorGreenMain;
+                        &:after:nth-child(3) {
+                            width: 60px;
+                        }
 
-                    &:after {
-                        width: 60px;
+
+                    }*/
+                    @media (min-width: 768px) {
+                        &:after {
+                            left: 8px;
+                            width: 84%;
+                        }
+
+                        &:hover:nth-child(2n+2) {
+                            color: $colorGreenMain;
+
+                            &:after {
+                                width: 62px;
+                            }
+                        }
                     }
                 }
             }
@@ -159,6 +172,43 @@ body {
         &__img {
             width: 120px;
         }
+    }
+
+    @media (max-width: 767.98px) {
+        #navbarSupportedContent {
+
+            .navbar-nav {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .nav-item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 130px;
+                    height: 45px;
+                    border: 1px solid rgba($colorGreenMain,.3);
+                    margin: 5px;
+                    border-radius: 20px;
+                    background-color: rgba($colorBlackBox,.7);
+                    transition: all .7s;
+
+                    &:hover {
+                        background-color: rgba($colorBlackBox,1);
+                        border: 1px solid rgba($colorGreenMain,1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    #menu {
+        padding: 30px 10px;
     }
 }
 /*#endregion */
@@ -576,6 +626,7 @@ body {
         background-color: $colorBlackBox;
 
         .col-box {
+            border-bottom: 1px solid rgba($colorTextWhiteDescription,.3);
             padding: 40px 0px 40px 40px;
             position: relative;
 
@@ -611,7 +662,7 @@ body {
 
             &:before {
                 position: absolute;
-                top: 52px;
+                top: 47px;
                 left: 0;
                 content: "";
                 background-color: $colorGreenMain;
@@ -621,7 +672,7 @@ body {
 
             &:after {
                 position: absolute;
-                top: 52px;
+                top: 47px;
                 left: 18px;
                 content: "";
                 border-left: $colorGreenMain;
@@ -632,8 +683,7 @@ body {
         }
 
         .col-box:last-child {
-            border-top: 1px solid rgba($colorTextWhiteDescription,.3);
-
+            //border-top: 1px solid rgba($colorTextWhiteDescription,.3);
             &__title {
             }
 
@@ -1057,6 +1107,11 @@ body {
         .back-top__icon {
             transform: rotate(180deg);
         }
+    }
+
+    @media (max-width:575.98px) {
+        top: 50px;
+        right: 25px;
     }
 }
 /*#endregion */
