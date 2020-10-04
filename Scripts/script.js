@@ -7,6 +7,13 @@
     //toggler responsive
     $(".navbar-toggler").click(function () {
         $(".navbar-toggler .dash-list").toggleClass("toggler-active");
+
+        setTimeout(function () {
+            if ($(".navbar-toggler .dash-list").hasClass("toggler-active"))
+                $("#navbarSupportedContent").addClass("show");
+            else
+                $("#navbarSupportedContent").removeClass("show");
+        },500);
     });
 
     //click item menu
@@ -85,5 +92,6 @@
             }
         }
     }
+
 });
 
