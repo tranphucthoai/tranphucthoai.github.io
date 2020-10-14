@@ -453,17 +453,17 @@ body {
           width: 80%;
           background-color: #009e66; }
   #resume .skills .skills-content.skills-content--first .skills-content-list .skills-content-list-item:nth-child(1) .skills-content-list-item-progress .skills-content-list-item-progress__bar {
-    width: 90%; }
+    width: 60%; }
   #resume .skills .skills-content.skills-content--first .skills-content-list .skills-content-list-item:nth-child(2) .skills-content-list-item-progress .skills-content-list-item-progress__bar {
-    width: 80%; }
+    width: 60%; }
   #resume .skills .skills-content.skills-content--first .skills-content-list .skills-content-list-item:nth-child(3) .skills-content-list-item-progress .skills-content-list-item-progress__bar {
-    width: 50%; }
+    width: 40%; }
   #resume .skills .skills-content.skills-content--last .skills-content-list .skills-content-list-item:nth-child(1) .skills-content-list-item-progress .skills-content-list-item-progress__bar {
-    width: 70%; }
+    width: 60%; }
   #resume .skills .skills-content.skills-content--last .skills-content-list .skills-content-list-item:nth-child(2) .skills-content-list-item-progress .skills-content-list-item-progress__bar {
     width: 60%; }
   #resume .skills .skills-content.skills-content--last .skills-content-list .skills-content-list-item:nth-child(3) .skills-content-list-item-progress .skills-content-list-item-progress__bar {
-    width: 60%; }
+    width: 40%; }
 
 /*#endregion */
 /*#region product */
