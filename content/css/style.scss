@@ -554,10 +554,8 @@ body {
                 color: $colorTextWhiteBig;
                 //font-size: 24px;
             }
-            @media (min-width: 768px) {
-                .col-box__title {
-                    font-size: 24px;
-                }
+            .col-box__title {
+                font-size: 24px;
             }
             &__content {
                 &__item {

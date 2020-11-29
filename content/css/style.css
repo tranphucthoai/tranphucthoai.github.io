@@ -306,6 +306,7 @@ body:focus {
   position: relative;
   font-family: 'Lobster', cursive;
   text-align: center;
+  color: #009e66;
 }
 
 #home .home-bg-overlay .content-box__sub .typewrite {
@@ -633,10 +634,8 @@ body:focus {
   color: #f0f0f0;
 }
 
-@media (min-width: 768px) {
-  #resume .col-wrapper .col-box .col-box__title {
-    font-size: 24px;
-  }
+#resume .col-wrapper .col-box .col-box__title {
+  font-size: 24px;
 }
 
 #resume .col-wrapper .col-box__content__item {
